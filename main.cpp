@@ -19,7 +19,7 @@ int main()
 
 	cout << "\nSaisir le deuxieme entier de votre calcul : ";
 	cin >> entier2;
-
+	
 	// Calcul avec l operateur
 		// ADDITION	
 		if (operateur == '+'){
@@ -37,9 +37,32 @@ int main()
 		}
 		// MULTIPLICATION
 		else if (operateur == 'x'){
+		entier1 = entier1 * entier2;
 		}
+		
+		// DIVISION
+		else if (operateur == '/'){
+			while (entier1 == 0){
+        		        cout << "---\n!!! Division impossible par 0 !!!" << endl;
+				cout << "---\nSaisir le premier entier de votre calcul : ";
+		                cin >> entier1;
+                	}
+
+			while (entier2 == 0){
+				cout << "---\n!!! Division impossible par 0 !!!" << endl;
+				cout << "---\nSaisir le deuxieme entier de votre calcul : ";
+				cin >> entier2;
+			}
+	
+		        if (entier1 != 0){
+		                entier1 = entier1 / entier2;
+		        }
+		}
+		// MODULO
 
 
+	// Affichage du résultat
+		cout << "---\n***\nLe résultat de l'opération est : " << entier1 << "\n***";
 
 return 0;
 
