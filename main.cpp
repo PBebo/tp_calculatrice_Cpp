@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	// Declaration des variables entiers
-	int addition, soustraction, multiplication, division, modulo, entier1, entier2;
+	int addition, soustraction, multiplication, division, modulo, entier1, entier2, moduloCalcul;
 	char operateur;
 	
 	// Demande a l utilisateur, affichage
@@ -58,11 +58,14 @@ int main()
 		                entier1 = entier1 / entier2;
 		        }
 		}
+
 		// MODULO
-
-
+		else if (operateur == '%'){
+			entier1 = entier1%entier2;
+			//entier1 = moduloCalcul;
+		}
 	// Affichage du résultat
-		cout << "---\n***\nLe résultat de l'opération est : " << entier1 << "\n***";
+		cout << "\n\n---\n***\nLe résultat de l'opération est : " << entier1 << "\n***" << endl;
 
 return 0;
 
