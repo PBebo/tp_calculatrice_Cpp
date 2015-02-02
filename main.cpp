@@ -10,7 +10,7 @@
 
 int main()
 {
-	int32_t operandeA, operandeB;
+	double operandeA, operandeB;
 	// Recuperation des deux operandes
 	cout << "---\nSaisir le premier operande de votre calcul : ";
 	cin >> operandeA;
