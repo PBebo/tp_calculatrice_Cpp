@@ -9,14 +9,16 @@ var indexSectionsWithContent =
 {
   0: "adms",
   1: "adms",
-  2: "adms"
+  2: "adms",
+  3: "d"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "files",
-  2: "functions"
+  2: "functions",
+  3: "pages"
 };
 
 function convertToId(search)

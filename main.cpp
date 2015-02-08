@@ -8,6 +8,20 @@
 
 using namespace std;
 
+/* Documentation Calculatrice Cpp
+ */
+
+/*! \mainpage Documentation Calculatrice Cpp
+ *
+ * \section intro_sec Introduction
+ *
+ * Documentation d'un programme écrit en C++ qui doit permettre de réaliser les calculs de type +, -, x, ÷, modulo. Ecrit en C++.
+ *
+ * <BR><BR>
+ *
+ */
+
+
 int main()
 {
 	// Affichage titre Calculatrice C++ :
