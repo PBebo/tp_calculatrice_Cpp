@@ -1,0 +1,58 @@
+\hypertarget{main_8cpp}{\section{Référence du fichier main.\-cpp}
+\label{main_8cpp}\index{main.\-cpp@{main.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$stdint.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}./addition.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./soustraction.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./multiplication.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./division.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./modulo.\-cpp\char`\"{}}\\*
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions}
+\hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{\index{main.\-cpp@{main.\-cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\begin{DoxyCode}
+12 \{
+13     \textcolor{comment}{// Affichage titre Calculatrice C++ :}
+14     cout << \textcolor{stringliteral}{"---\(\backslash\)nCalculatrice C++\(\backslash\)n---\(\backslash\)n\(\backslash\)n"};
+15     int16\_t a=321, b=23; 
+16 
+17     int32\_t c=321, d=23;
+18 
+19     \textcolor{keywordtype}{float} e=2324, f=25;
+20 
+21     \textcolor{keywordtype}{double} g=67863, h=432;
+22     
+23     cout << \textcolor{stringliteral}{"Valeur pour calcul : "} << endl;
+24     cout << \textcolor{stringliteral}{"Valeur de  a : "} << a << endl;
+25     cout << \textcolor{stringliteral}{"Valeur de  b : "} << b << endl;
+26     cout << \textcolor{stringliteral}{"Valeur de  c : "} << c << endl;
+27     cout << \textcolor{stringliteral}{"Valeur de  d : "} << d << endl;
+28     cout << \textcolor{stringliteral}{"Valeur de  e : "} << e << endl;
+29     cout << \textcolor{stringliteral}{"Valeur de  f : "} << f << endl;
+30     cout << \textcolor{stringliteral}{"Valeur de  g : "} << g << endl;
+31     cout << \textcolor{stringliteral}{"Valeur de  h : "} << h << endl << endl;
+32 
+33 
+34     cout << \textcolor{stringliteral}{"Addition : "} << \hyperlink{addition_8cpp_af77304a128952ae891542520211cc56b}{ajouter}(a,b) << endl;
+35     cout << \textcolor{stringliteral}{"Soustraction : "} << \hyperlink{soustraction_8cpp_ad8769381470b39f023f8bfed27ae5d44}{soustraction}(a,b) << endl;
+36     cout << \textcolor{stringliteral}{"Multiplication : "} << \hyperlink{multiplication_8cpp_afe6816e51a419a81459f5c9e9e7a3dd1}{multiplication}(a,b) << endl;
+37     cout << \textcolor{stringliteral}{"Division : "} <<\hyperlink{division_8cpp_ae00f81266e77e25c80acd87c92b2df73}{division}(a,b) << endl;
+38     cout << \textcolor{stringliteral}{"Modulo : "} << \hyperlink{modulo_8cpp_ae142f770356d10af84b292dd74bb6d26}{modulo}(a,b) << endl;
+39 
+40     \textcolor{keywordflow}{return} 0;
+41 \}
+\end{DoxyCode}
