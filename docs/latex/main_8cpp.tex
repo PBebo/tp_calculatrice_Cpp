@@ -1,0 +1,96 @@
+\hypertarget{main_8cpp}{\section{Référence du fichier /home/bebo/\-Documents/\-B\-T\-S/\-S\-I6/\-T\-P/tp\-\_\-calculatrice\-\_\-\-Cpp/main.cpp}
+\label{main_8cpp}\index{/home/bebo/\-Documents/\-B\-T\-S/\-S\-I6/\-T\-P/tp\-\_\-calculatrice\-\_\-\-Cpp/main.\-cpp@{/home/bebo/\-Documents/\-B\-T\-S/\-S\-I6/\-T\-P/tp\-\_\-calculatrice\-\_\-\-Cpp/main.\-cpp}}
+}
+
+
+Calculatrice affichant le résultat des valeurs définit au préalable dans le programme.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$stdint.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}./fichiers\-Decoupes/addition.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./fichiers\-Decoupes/soustraction.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./fichiers\-Decoupes/multiplication.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./fichiers\-Decoupes/division.\-cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./fichiers\-Decoupes/modulo.\-cpp\char`\"{}}\\*
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Calculatrice affichant le résultat des valeurs définit au préalable dans le programme. Calculatrice affichant le résultat des valeurs définit au préalabl\$.
+
+\begin{DoxyAuthor}{Auteur}
+Pierrick.\-B 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+février 2015
+\end{DoxyDate}
+Ceci est le coeur du programme. Le programme est découpé en 5 autres fichiers qui seront appelés ici afin de l'optimiser. Il y a un fichier par opérande +, -\/, x, ÷ et modulo.
+
+\begin{DoxyAuthor}{Auteur}
+Pierrick.\-B 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+3.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+février 2015
+\end{DoxyDate}
+Ceci est le coeur du programme. Le programme est découpé en 5 au\$ 
+
+Définition dans le fichier \hyperlink{}{main.\-cpp}.
+
+
+
+\subsection{Documentation des fonctions}
+\hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{\index{main.\-cpp@{main.\-cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\begin{DoxyCode}
+35 \{
+36         \textcolor{comment}{// Affichage du titre Calculatrice C++ :}
+37         cout << \textcolor{stringliteral}{"---\(\backslash\)nCalculatrice C++\(\backslash\)n---\(\backslash\)n\(\backslash\)n"};
+38 
+39     \textcolor{comment}{// Définition des variables qui seront calculés}
+40         int16\_t a=321, b=23;
+41 
+42         int32\_t c=321, d=23;
+43 
+44         \textcolor{keywordtype}{float} e=2324, f=25;
+45 
+46         \textcolor{keywordtype}{double} g=67863, h=432;
+47     
+48     \textcolor{comment}{// Affichage des variables définit ci-dessus pour faciliter la compréhension à l'utilisateur}
+49     cout << \textcolor{stringliteral}{"Valeur pour calcul : "} << endl;
+50     cout << \textcolor{stringliteral}{"Valeur de  a : "} << a << endl;
+51     cout << \textcolor{stringliteral}{"Valeur de  b : "} << b << endl;
+52     cout << \textcolor{stringliteral}{"Valeur de  c : "} << c << endl;
+53     cout << \textcolor{stringliteral}{"Valeur de  d : "} << d << endl;
+54     cout << \textcolor{stringliteral}{"Valeur de  e : "} << e << endl;
+55     cout << \textcolor{stringliteral}{"Valeur de  f : "} << f << endl;
+56     cout << \textcolor{stringliteral}{"Valeur de  g : "} << g << endl;
+57     cout << \textcolor{stringliteral}{"Valeur de  h : "} << h << endl << endl;
+58 
+59     \textcolor{comment}{// Affichage du résultat sous tous les types de variables (int32, int64, float, double)}
+60         \textcolor{comment}{// Avec également les 5 opérandes}
+61     cout << \textcolor{stringliteral}{"Addition : "} << \hyperlink{addition_8cpp_af77304a128952ae891542520211cc56b}{ajouter}(a,b) << endl;
+62     cout << \textcolor{stringliteral}{"Soustraction : "} << \hyperlink{soustraction_8cpp_ad8769381470b39f023f8bfed27ae5d44}{soustraction}(a,b) << endl;
+63     cout << \textcolor{stringliteral}{"Multiplication : "} << \hyperlink{multiplication_8cpp_afe6816e51a419a81459f5c9e9e7a3dd1}{multiplication}(a,b) << endl;
+64     cout << \textcolor{stringliteral}{"Division : "} << \hyperlink{division_8cpp_ae00f81266e77e25c80acd87c92b2df73}{division}(a,b) << endl;
+65     cout << \textcolor{stringliteral}{"Modulo : "} << \hyperlink{modulo_8cpp_ae142f770356d10af84b292dd74bb6d26}{modulo}(a,b) << endl;
+66 
+67     \textcolor{keywordflow}{return} 0;
+68 \}
+\end{DoxyCode}
