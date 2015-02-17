@@ -1,0 +1,112 @@
+#include <iostream>
+#include <stdint.h>
+
+using namespace std;
+
+int main()
+{
+	// Declaration des variables int32, int64, float, double
+	int entier1, entier2;
+	int32_t addition1, soustraction1, multiplication1, division1, modulo1;
+	int64_t addition2, soustraction2, multiplication2, division2, modulo2;
+	float addition3, soustraction3, multiplication3, division3, modulo3;
+	double addition4, soustraction4, multiplication4, division4, modulo4;
+	
+	// Demande a l utilisateur les 2 entiers a calculer
+	cout << "---\nSaisir le premier entier de votre calcul : ";
+	cin >> entier1;
+
+	cout << "\nSaisir le deuxieme entier de votre calcul : ";
+	cin >> entier2;
+	
+		// ADDITION
+		cout << "---\nAddition :" << endl;
+		addition1 = entier1 + entier2;
+		cout << "\nResultat pour int32 : "<< addition1 << endl;
+
+		addition2 = entier1 + entier2;
+                cout << "Resultat pour int64 : "<< addition2 << endl;
+
+		addition3 = entier1 + entier2;
+                cout << "Resultat pour float : "<< addition3 << endl;
+		
+		addition4 = entier1 + entier2;
+                cout << "Resultat pour decimal : "<< addition4 << endl;	
+	
+		// SOUSTRACTION
+		cout << "---\nSoustraction :" << endl;
+                soustraction1 = entier1 - entier2;
+                cout << "\nResultat pour int32 : "<< soustraction1 << endl;
+		
+		soustraction2 = entier1 - entier2;
+                cout << "Resultat pour int64 : "<< soustraction2 << endl;
+		
+		soustraction3 = entier1 - entier2;
+                cout << "Resultat pour float : "<< soustraction3 << endl;
+		
+	        soustraction4 = entier1 - entier2;
+                cout << "Resultat pour decimal : "<< soustraction4 << endl;
+
+		// MULTIPLICATION
+		cout << "---\nMultiplication :" << endl;
+
+		multiplication1 = entier1 * entier2;
+		cout << "\nResultat pour int32 : "<< multiplication1 << endl;
+		
+		multiplication2 = entier1 * entier2;
+		cout << "Resultat pour int64 : "<< multiplication2 << endl;		
+		
+		multiplication3 = entier1 * entier2;
+		cout << "Resultat pour float : "<< multiplication3 << endl;
+
+		multiplication4 = entier1 * entier2;
+		cout << "Resultat pour decimal : "<< multiplication4 << endl;
+		
+		// DIVISION
+		cout << "---\nDivision :" << endl;
+		while (entier1 == 0){
+			cout << "---\n!!! Division impossible par 0 !!!" << endl;
+			cout << "---\nSaisir le premier entier de votre calcul : ";
+			cin >> entier1;	
+		}
+				
+		while (entier2 == 0){
+			cout << "---\n!!! Division impossible par 0 !!!" << endl;
+			cout << "---\nSaisir le deuxieme entier de votre calcul : ";
+			cin >> entier2;
+		}
+				
+		if (entier1 != 0){
+			entier1 = entier1 / entier2;
+		}
+				
+		division1 = entier1 / entier2;
+		cout << "\nResultat pour int32 : "<< division1 << endl;
+		
+		division2 = entier1 / entier2;
+		cout << "Resultat pour int64 : "<< division2 << endl;
+
+		division3 = entier1 / entier2;
+		cout << "Resultat pour float : "<< division3 << endl;
+
+		division4 = entier1 / entier2;
+		cout << "Resultat pour decimal : "<< division4 << endl;
+				
+		// MODULO
+		cout << "---\nModulo :" << endl;
+
+		modulo1 = entier1%entier2;
+		cout << "\nResultat pour int32 : "<< modulo1 << endl;
+
+		modulo2 = entier1%entier2;
+		cout << "Resultat pour int64 : "<< modulo2 << endl;	
+
+		modulo3 = entier1%entier2;
+		cout << "Resultat pour float : "<< modulo3 << endl;	
+
+		modulo4 = entier1%entier2;
+		cout << "Resultat pour decimal : "<< modulo4 << endl;	
+
+return 0;
+
+}

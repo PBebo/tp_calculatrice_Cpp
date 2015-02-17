@@ -1,0 +1,11 @@
+int32_t add(int32_t opA, int32_t opB)
+{
+return opA + opB;
+}
+
+
+
+
+a = add (2, 3);
+
+
