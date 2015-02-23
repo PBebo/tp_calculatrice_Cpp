@@ -1,0 +1,54 @@
+\begin{theindex}
+
+  \item {/home/bebo/\discretionary {-}{}{}Documents/\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}S/\discretionary {-}{}{}S\discretionary {-}{}{}I6/\discretionary {-}{}{}T\discretionary {-}{}{}P/tp\discretionary {-}{}{}\_\discretionary {-}{}{}calculatrice\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Cpp/fichiers\discretionary {-}{}{}Decoupes/addition.\discretionary {-}{}{}cpp}, 
+		\hyperpage{5}
+  \item {/home/bebo/\discretionary {-}{}{}Documents/\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}S/\discretionary {-}{}{}S\discretionary {-}{}{}I6/\discretionary {-}{}{}T\discretionary {-}{}{}P/tp\discretionary {-}{}{}\_\discretionary {-}{}{}calculatrice\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Cpp/fichiers\discretionary {-}{}{}Decoupes/division.\discretionary {-}{}{}cpp}, 
+		\hyperpage{7}
+  \item {/home/bebo/\discretionary {-}{}{}Documents/\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}S/\discretionary {-}{}{}S\discretionary {-}{}{}I6/\discretionary {-}{}{}T\discretionary {-}{}{}P/tp\discretionary {-}{}{}\_\discretionary {-}{}{}calculatrice\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Cpp/fichiers\discretionary {-}{}{}Decoupes/modulo.\discretionary {-}{}{}cpp}, 
+		\hyperpage{8}
+  \item {/home/bebo/\discretionary {-}{}{}Documents/\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}S/\discretionary {-}{}{}S\discretionary {-}{}{}I6/\discretionary {-}{}{}T\discretionary {-}{}{}P/tp\discretionary {-}{}{}\_\discretionary {-}{}{}calculatrice\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Cpp/fichiers\discretionary {-}{}{}Decoupes/multiplication.\discretionary {-}{}{}cpp}, 
+		\hyperpage{9}
+  \item {/home/bebo/\discretionary {-}{}{}Documents/\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}S/\discretionary {-}{}{}S\discretionary {-}{}{}I6/\discretionary {-}{}{}T\discretionary {-}{}{}P/tp\discretionary {-}{}{}\_\discretionary {-}{}{}calculatrice\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Cpp/fichiers\discretionary {-}{}{}Decoupes/soustraction.\discretionary {-}{}{}cpp}, 
+		\hyperpage{11}
+  \item {/home/bebo/\discretionary {-}{}{}Documents/\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}S/\discretionary {-}{}{}S\discretionary {-}{}{}I6/\discretionary {-}{}{}T\discretionary {-}{}{}P/tp\discretionary {-}{}{}\_\discretionary {-}{}{}calculatrice\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Cpp/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {addition.\discretionary {-}{}{}cpp}
+    \subitem {ajouter}, \hyperpage{5, 6}
+  \item {ajouter}
+    \subitem {addition.\discretionary {-}{}{}cpp}, \hyperpage{5, 6}
+
+  \indexspace
+
+  \item {division}
+    \subitem {division.\discretionary {-}{}{}cpp}, \hyperpage{7, 8}
+  \item {division.\discretionary {-}{}{}cpp}
+    \subitem {division}, \hyperpage{7, 8}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{13}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{13}
+  \item {modulo}
+    \subitem {modulo.\discretionary {-}{}{}cpp}, \hyperpage{8, 9}
+  \item {modulo.\discretionary {-}{}{}cpp}
+    \subitem {modulo}, \hyperpage{8, 9}
+  \item {multiplication}
+    \subitem {multiplication.\discretionary {-}{}{}cpp}, 
+		\hyperpage{9, 10}
+  \item {multiplication.\discretionary {-}{}{}cpp}
+    \subitem {multiplication}, \hyperpage{9, 10}
+
+  \indexspace
+
+  \item {soustraction}
+    \subitem {soustraction.\discretionary {-}{}{}cpp}, 
+		\hyperpage{11, 12}
+  \item {soustraction.\discretionary {-}{}{}cpp}
+    \subitem {soustraction}, \hyperpage{11, 12}
+
+\end{theindex}
