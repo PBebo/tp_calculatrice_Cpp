@@ -1,10 +1,10 @@
 var NAVTREE =
 [
-  [ "Calculatrice_C++", "index.html", [
+  [ "Calculatrice_Cpp", "index.html", [
     [ "Documentation Calculatrice Cpp", "index.html", [
       [ "Introduction", "index.html#intro_sec", null ]
     ] ],
-    [ "calculatrice_C-", "md__home_bebo__documents__b_t_s__s_i6__t_p_tp_calculatrice__cpp__r_e_a_d_m_e.html", null ],
+    [ "calculatrice_C-", "md__r_e_a_d_m_e.html", null ],
     [ "Fichiers", null, [
       [ "Liste des fichiers", "files.html", "files" ],
       [ "Membres de fichier", "globals.html", [
