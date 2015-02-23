@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Calculatrice", "index.html", [
+  [ "Calculatrice_C++", "index.html", [
     [ "Documentation Calculatrice Cpp", "index.html", [
       [ "Introduction", "index.html#intro_sec", null ]
     ] ],

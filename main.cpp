@@ -2,7 +2,7 @@
 /// \author	Pierrick.B
 /// \version 3.0
 /// \date février 2015
-/// \brief Calculatrice affichant le résultat des valeurs définit au préalable dans le programme
+/// \details Calculatrice affichant le résultat des valeurs définit au préalable dans le programme
 /// \details Ceci est le coeur du programme. Le programme est découpé en 5 autres fichiers qui seront appelés ici afin de l'optimiser. Il y a un fichier par opérande +, -, x, ÷ et modulo.
 
 // Définition des bibliothèques iostream et stdint.h
