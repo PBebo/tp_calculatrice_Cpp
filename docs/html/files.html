@@ -4,10 +4,17 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Calculatrice C++: Liste des fichiers</title>
+<title>Calculatrice: Liste des fichiers</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
@@ -22,10 +29,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Calculatrice C++
-   &#160;<span id="projectnumber">3</span>
+   <div id="projectname">Calculatrice
+   &#160;<span id="projectnumber">4</span>
    </div>
-   <div id="projectbrief">Création d&#39;une calculatrice avec divers variables en C++.</div>
   </td>
  </tr>
  </tbody>
@@ -39,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -65,6 +72,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('files.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -87,20 +108,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
 <div class="textblock">Liste de tous les fichiers avec une brève description :</div><div class="directory">
 <div class="levels">[Niveau de détails <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span>]</div><table class="directory">
 <tr id="row_0_" class="even"><td class="entry"><img id="arr_0_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('0_')"/><img id="img_0_" src="ftv2folderopen.png" alt="-" width="24" height="22" onclick="toggleFolder('0_')"/><a class="el" href="dir_6fab1b976e40619c5cfb67277795900a.html" target="_self">fichiersDecoupes</a></td><td class="desc"></td></tr>
-<tr id="row_0_0_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a href=".html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="addition_8cpp.html" target="_self">addition.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_0_1_" class="even"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a href=".html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="division_8cpp.html" target="_self">division.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_0_2_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a href=".html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="modulo_8cpp.html" target="_self">modulo.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_0_3_" class="even"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a href=".html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="multiplication_8cpp.html" target="_self">multiplication.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_0_4_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a href=".html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="soustraction_8cpp.html" target="_self">soustraction.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_1_" class="even"><td class="entry"><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a href=".html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="main_8cpp.html" target="_self">main.cpp</a></td><td class="desc">Calculatrice affichant le résultat des valeurs définit au préalable dans le programme </td></tr>
+<tr id="row_0_0_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="addition_8cpp.html" target="_self">addition.cpp</a></td><td class="desc"></td></tr>
+<tr id="row_0_1_" class="even"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="division_8cpp.html" target="_self">division.cpp</a></td><td class="desc"></td></tr>
+<tr id="row_0_2_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="modulo_8cpp.html" target="_self">modulo.cpp</a></td><td class="desc"></td></tr>
+<tr id="row_0_3_" class="even"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="multiplication_8cpp.html" target="_self">multiplication.cpp</a></td><td class="desc"></td></tr>
+<tr id="row_0_4_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="soustraction_8cpp.html" target="_self">soustraction.cpp</a></td><td class="desc"></td></tr>
+<tr id="row_1_" class="even"><td class="entry"><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="main_8cpp.html" target="_self">main.cpp</a></td><td class="desc">Calculatrice affichant le résultat des valeurs définit au préalable dans le programme </td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Généré le Lundi 23 Février 2015 10:29:56 pour Calculatrice C++ par &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré le Lundi 23 Février 2015 11:12:54 pour Calculatrice par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>
