@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['division',['division',['../division_8cpp.html#ae00f81266e77e25c80acd87c92b2df73',1,'division(int32_t operandeA, int32_t operandeB):&#160;division.cpp'],['../division_8cpp.html#afd3fd6a1f9f358543aaff269d93abb5b',1,'division(int64_t operandeA, int64_t operandeB):&#160;division.cpp'],['../division_8cpp.html#af4c54d8902811c0d4964a29395bbb10e',1,'division(float operandeA, float operandeB):&#160;division.cpp'],['../division_8cpp.html#a8faf36a7828f61324d34749135d9aac8',1,'division(double operandeA, double operandeB):&#160;division.cpp']]],
-  ['division_2ecpp',['division.cpp',['../division_8cpp.html',1,'']]],
-  ['documentation_20calculatrice_20cpp',['Documentation Calculatrice Cpp',['../index.html',1,'']]]
+  ['main',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['modulo',['modulo',['../modulo_8cpp.html#ae142f770356d10af84b292dd74bb6d26',1,'modulo(int32_t operandeA, int32_t operandeB):&#160;modulo.cpp'],['../modulo_8cpp.html#a32ff2891c97e3745dc6fbb3ca1be7da6',1,'modulo(int64_t operandeA, int64_t operandeB):&#160;modulo.cpp']]],
+  ['modulo_2ecpp',['modulo.cpp',['../modulo_8cpp.html',1,'']]],
+  ['multiplication',['multiplication',['../multiplication_8cpp.html#afe6816e51a419a81459f5c9e9e7a3dd1',1,'multiplication(int32_t operandeA, int32_t operandeB):&#160;multiplication.cpp'],['../multiplication_8cpp.html#ab887eceab46f14c61dd3b91a285454dc',1,'multiplication(int64_t operandeA, int64_t operandeB):&#160;multiplication.cpp'],['../multiplication_8cpp.html#a6de68fe50d36cf4f8a481fdd973be731',1,'multiplication(float operandeA, float operandeB):&#160;multiplication.cpp'],['../multiplication_8cpp.html#a04b291d9ca3e983ba7b090fa0a8bf450',1,'multiplication(double operandeA, double operandeB):&#160;multiplication.cpp']]],
+  ['multiplication_2ecpp',['multiplication.cpp',['../multiplication_8cpp.html',1,'']]]
 ];

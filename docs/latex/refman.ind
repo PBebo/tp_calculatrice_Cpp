@@ -1,57 +1,52 @@
 \begin{theindex}
 
   \item {addition.\discretionary {-}{}{}cpp}
-    \subitem {ajouter}, \hyperpage{7, 8}
+    \subitem {ajouter}, \hyperpage{5, 6}
   \item {ajouter}
-    \subitem {addition.\discretionary {-}{}{}cpp}, \hyperpage{7, 8}
+    \subitem {addition.\discretionary {-}{}{}cpp}, \hyperpage{5, 6}
 
   \indexspace
 
   \item {division}
-    \subitem {division.\discretionary {-}{}{}cpp}, \hyperpage{9}
+    \subitem {division.\discretionary {-}{}{}cpp}, \hyperpage{7}
   \item {division.\discretionary {-}{}{}cpp}
-    \subitem {division}, \hyperpage{9}
+    \subitem {division}, \hyperpage{7}
 
   \indexspace
 
   \item {fichiers\discretionary {-}{}{}Decoupes/addition.\discretionary {-}{}{}cpp}, 
-		\hyperpage{7}
+		\hyperpage{5}
   \item {fichiers\discretionary {-}{}{}Decoupes/division.\discretionary {-}{}{}cpp}, 
-		\hyperpage{8}
+		\hyperpage{6}
   \item {fichiers\discretionary {-}{}{}Decoupes/modulo.\discretionary {-}{}{}cpp}, 
-		\hyperpage{10}
+		\hyperpage{8}
   \item {fichiers\discretionary {-}{}{}Decoupes/multiplication.\discretionary {-}{}{}cpp}, 
-		\hyperpage{11}
+		\hyperpage{9}
   \item {fichiers\discretionary {-}{}{}Decoupes/soustraction.\discretionary {-}{}{}cpp}, 
-		\hyperpage{12}
+		\hyperpage{10}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{14}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{14}
-    \subitem {main}, \hyperpage{14}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{12}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{12}
+    \subitem {main}, \hyperpage{12}
   \item {modulo}
-    \subitem {modulo.\discretionary {-}{}{}cpp}, \hyperpage{10}
+    \subitem {modulo.\discretionary {-}{}{}cpp}, \hyperpage{8}
   \item {modulo.\discretionary {-}{}{}cpp}
-    \subitem {modulo}, \hyperpage{10}
+    \subitem {modulo}, \hyperpage{8}
   \item {multiplication}
     \subitem {multiplication.\discretionary {-}{}{}cpp}, 
-		\hyperpage{11, 12}
+		\hyperpage{9, 10}
   \item {multiplication.\discretionary {-}{}{}cpp}
-    \subitem {multiplication}, \hyperpage{11, 12}
-
-  \indexspace
-
-  \item {R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md}, 
-		\hyperpage{14}
+    \subitem {multiplication}, \hyperpage{9, 10}
 
   \indexspace
 
   \item {soustraction}
     \subitem {soustraction.\discretionary {-}{}{}cpp}, 
-		\hyperpage{12, 13}
+		\hyperpage{10, 11}
   \item {soustraction.\discretionary {-}{}{}cpp}
-    \subitem {soustraction}, \hyperpage{12, 13}
+    \subitem {soustraction}, \hyperpage{10, 11}
 
 \end{theindex}

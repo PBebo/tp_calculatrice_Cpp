@@ -4,7 +4,6 @@ var NAVTREE =
     [ "Documentation Calculatrice Cpp", "index.html", [
       [ "Introduction", "index.html#intro_sec", null ]
     ] ],
-    [ "calculatrice_C-", "md__r_e_a_d_m_e.html", null ],
     [ "Fichiers", null, [
       [ "Liste des fichiers", "files.html", "files" ],
       [ "Membres de fichier", "globals.html", [
